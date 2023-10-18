@@ -1,0 +1,16 @@
+Create A New Repository On Command Line
+
+echo "# demo01" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ryiuzahn/demo01.git
+git push -u origin main
+
+
+Push To An Existing Repository From Command Line
+
+git remote add origin https://github.com/Ryiuzahn/demo01.git
+git branch -M main
+git push -u origin main
